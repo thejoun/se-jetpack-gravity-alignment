@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <LangVersion>10.0</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony, Version=2.3.3.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="Sandbox.Game, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\Sandbox.Game.dll</HintPath>
+      </Reference>
+      <Reference Include="VRage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\VRage.dll</HintPath>
+      </Reference>
+      <Reference Include="VRage.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\VRage.Game.dll</HintPath>
+      </Reference>
+      <Reference Include="VRage.Input, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\VRage.Input.dll</HintPath>
+      </Reference>
+      <Reference Include="VRage.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\VRage.Library.dll</HintPath>
+      </Reference>
+      <Reference Include="VRage.Math, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\VRage.Math.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
