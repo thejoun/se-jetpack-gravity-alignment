@@ -2,7 +2,7 @@
 using HarmonyLib;
 using VRage.Plugins;
 
-namespace Mod
+namespace thejoun.JetpackGravityAlignment
 {
     public class Plugin : IPlugin, IDisposable
     {

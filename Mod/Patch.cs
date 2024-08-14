@@ -3,7 +3,7 @@ using HarmonyLib;
 using Sandbox.Game.Entities.Character.Components;
 using VRageMath;
 
-namespace Mod
+namespace thejoun.JetpackGravityAlignment
 {
     [HarmonyPatch(typeof(MyCharacterJetpackComponent))]
     [HarmonyPatch("MoveAndRotate")]
