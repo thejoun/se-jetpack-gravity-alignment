@@ -1,5 +1,5 @@
 # Jetpack Gravity Alignment
 
-A simple plugin which addresses a UX/QoL/Accessibility issue that seems to have been reported many times since 2014. While using a jetpack in any grivity field, it makes the player yaw around the current gravity axis, as if he was standing on the ground.
+By keeping a flying player aligned with current gravity, this plugin addresses a UX/QoL/Accessibility issue where turning to the sides while looking slighly up or down would make you immediately lose balance, potentially inducing nausea or just being inconvenient.
 
 [a productive reddit discussion](https://www.reddit.com/r/spaceengineers/comments/epqvo2/any_workshop_mod_that_locks_jetpack_rotation/)
