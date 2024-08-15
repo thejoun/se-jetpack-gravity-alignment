@@ -2,9 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>net48</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <LangVersion>10.0</LangVersion>
-        <AssemblyName>JetpackGravityAlignment</AssemblyName>
+        <LangVersion>7.3</LangVersion>
         <RootNamespace>thejoun.JetpackGravityAlignment</RootNamespace>
     </PropertyGroup>
 

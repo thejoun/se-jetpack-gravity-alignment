@@ -1,17 +1,14 @@
-﻿using System;
+﻿using System.Reflection;
 using HarmonyLib;
 using VRage.Plugins;
 
 namespace thejoun.JetpackGravityAlignment
 {
-    public class Plugin : IPlugin, IDisposable
+    public class Plugin : IPlugin
     {
-        private const string Name = "JetpackGravityAlignment";
-        
         public void Init(object gameObject)
         {
-            var harmony = new Harmony(Name);
-            harmony.PatchAll();
+            new Harmony("JetpackGravityAlignment").PatchAll(Assembly.GetExecutingAssembly());
         }
 
         public void Update()
